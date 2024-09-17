@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aidan Leung</title>
+    <link rel="icon" href="./assets/img/a_favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -37,38 +38,35 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/img/aidan_grad_headshot.jpg" alt="aidanpfp">
+            <img src="./assets/img/aidan_grad_headshot.jpg" alt="aidanpfp"/>
         </div>
         <div class="section__text">
-            <p class="section__text__p1"> Hello, I'm</p>
+            <p class="section__text__p1"> Hello! I'm</p>
             <h1 class="title"> Aidan Leung</h1>
-            <p class="section__text__p2">Software Engineer</p>
+            <p class="section__text__p2">Software/ML Engineer</p>
             <div class="btn-container">
                 <button 
                     class="btn btn-color-2"
-                    onclick="window.open('./assets/resume-example.pdf')"
-                >
-                    Download CV
-                </button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'"
+                    onclick="location.href='./#contact'"
                 >
                     Contact Info
                 </button>
+                <div id="socials-container">
+                    <img 
+                        src="./assets/img/linkedin.png" 
+                        alt="My LinkedIn"
+                        class="icon"
+                        onclick="location.href='https://www.linkedin.com/in/aidanleung/'"
+                    />
+                    <img 
+                        src="./assets/img/github.png" 
+                        alt="My GitHub"
+                        class="icon"
+                        onclick="location.href='https://github.com/aidanleung0'"
+                    />
+                </div>
             </div>
-            <div id="socials-container">
-                <img 
-                    src="./assets/img/linkedin.png" 
-                    alt="My LinkedIn"
-                    class="icon"
-                    onclick="location.href='https://www.linkedin.com/in/aidanleung/'"
-                />
-                <img 
-                    src="./assets/img/github.png" 
-                    alt="My GitHub"
-                    class="icon"
-                    onclick="location.href='https://github.com/aidanleung0'"
-                />
-            </div>
+            
         </div>
     </section>
     <section id="about">
@@ -100,7 +98,8 @@
                             class="icon"
                         />
                         <h3>Education</h3>
-                        <p>B.A. Computer Science</p>
+                        <p>B.A. Computer Science @</p>
+                        <p>University of California, Berkeley</p>
                     </div>
                 </div>
                 <div class="text-container">
