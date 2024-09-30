@@ -166,6 +166,39 @@ section {
     display: flex;
 }
 
+/* IMAGE TRACK SECTION */
+
+#track {
+    height: 48vh;
+    margin: 0;
+}
+
+#track-container {
+    width: 80vw;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    left: 10vw;
+    top: 0;
+}
+
+#image-track {
+    width: 200%;
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    /* left: 50%; */
+    top: 75%;
+    transform: translate(0%, -75%);
+}
+
+#image-track > .image {
+    width: 30vmin;
+    height: 42vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
 /* PROFILE SECTION */
 
 #profile {
@@ -186,6 +219,7 @@ section {
     align-items: center;
      */
 }
+
 
 #profile .section__pic-container img {
     height: 100%;
@@ -380,7 +414,7 @@ section {
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-arund;
+    justify-content: space-around;
     gap: 0.5rem;
 }
 
@@ -400,7 +434,7 @@ article .icon {
 }
 
 .project-img {
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 90%;
     height: 90%;
 }
