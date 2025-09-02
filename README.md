@@ -1,14 +1,10 @@
-# Software/ML Engineer
+# Aidan Leung
 
 ### Education
+#### University of California, San Diego
+Electical and Computer Engineering, ML & DS, MS
 #### University of California, Berkeley
 Computer Science, BA
 
-### Work Experience
-Machine Learning Engineer @ Silicon Valley Commerce
-- deployed automatic content generation
 
-### Projects
-Gitlet
-- A CLI project in Java mimicking basic features of Git
 
